@@ -1,0 +1,246 @@
+body {
+    background-color: rgba(81, 16, 16, 0.801);
+}
+
+* {
+
+}
+
+/*-----------------
+BARRA DE NAVEGACION
+------------------*/
+
+.nav_bar {
+    width:auto;
+    font-size: 18px;
+}
+
+.nav_bar ul {
+    list-style-type: none; /* Elimina los puntos de lista */
+    display: flex;
+    flex-direction: row; /* Se acomoda la lista horizontal */
+    gap: 90px;
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .nav_bar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  /*-----------------
+         TITULO
+------------------*/
+.titulo {
+    font-size: 32px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+    color: rgb(213, 213, 213);
+}
+
+  /*-----------------
+         Parrafo
+------------------*/
+
+.parrafo1 {
+    font-size: 15px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+  /*-----------------
+        Imagenes
+------------------*/
+
+.imagenes {
+
+}
+
+.fotosg {
+
+}
+
+.gorras_fotos {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 7cm;    
+}
+
+  /*-----------------
+  CONTACTO, FORMULARIO
+------------------*/
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Estilos del formulario */
+  .formulario {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Estilos del botón */
+  .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Añadir un poco de espacio entre los elementos */
+  .form-group input:focus, .form-group textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+  /*-----------------
+ F O R M U L A R I O
+------------------*/
+
+form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2 {
+    color: #333;
+    font-size: 35px;
+}
+
+label {
+    color: #555;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    color:#000000;          /*color letra al escribir en el formulario*/
+    outline: none;
+}
+
+ input::placeholder, textarea::placeholder {
+    color: #ccc;
+ }
+
+ .form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-txt a {
+    color: #1c233f;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+
+
+
+  /*-----------------
+    B O T O N
+------------------*/
+
+.boton {
+    text-align: center;
+}
+
+.btn {
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 20px; /* espacio interno  */
+    border: 2px solid transparent; /* borde inicial invisible */
+    transition: all 0.3s ease; /* Transición suave para todos los cambios */
+}
+
+
+.btn:hover {        /* efectos al pasar el mouse sobre el botón */
+    background-color: #333; /* Fondo cuando se pasa el mouse */
+    color: #f0f0f0; /* Cambiar el color del texto */
+    border-color: #f0f0f0; /* Un borde visible con el color de texto */
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2); /* Sombra para dar profundidad */
+    transform: translateY(-3px); /* Efecto de "levantamiento" al pasar el mouse */
+}
+
+/* Efecto de "clic" para hacer el botón más interactivo */
+.btn:active {
+    transform: translateY(0px); /* El botón regresa a su posición original al hacer clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombras al presionar */
+}
+
+
+
