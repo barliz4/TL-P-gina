@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(27, 15, 15, 0.801);
+  background-color: #000000b7; /* Color de fondo suave para la página */
 }
 
 * {
@@ -148,60 +148,83 @@ BARRA DE NAVEGACION
  F O R M U L A R I O
 ------------------*/
 
-form {
-    padding: 50px 55px;
-    box-shadow: 0 0 20px rgb(250, 250, 250);
-    border-radius: 20px;
-    text-align: center;
-    width: 340px;
+.registro {
+  width: 370px;
+  height: 580px;
+  background-color:#0000008c;      /*Color relleno formulario*/
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-size: verdana;
+  color:#ffffff;       /*color de letra de formulario de contacto*/
+  text-align: center;
 }
 
-.input-group {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+.registro h4 {
+  font-size: 32px;        /*tamaño letra formluario de contacto*/
+  margin-bottom: 10px;    /*Espacio inferioir entre formulario, y campos para escribir*/
+
 }
 
-h2 {
-    color: #333;
-    font-size: 35px;
+.controles {      /*Nombre,*/
+  text-align: center;
+  width: 300px;                             /*Tamaño de largo de cada campo*/
+  background-color: rgb(255, 255, 255);  /*Color de relleno*/
+  padding: 10px;                       /*Grosor de los campos*/
+  border-radius: 4px;                 /*Redondea esquinas de los campos*/
+  margin-bottom: 16px;                /*Espacio inferior entre cada campo*/
+  border: 2px solid #000000;        /*Color de borde*/
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;                    /*Tamaño de letra interior de cada campo*/
 }
 
-label {
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    
+.registro p {     /*Términos y condiciones*/
+  height: 60px;
+  text-align: center;
+  font-size: 18px;
 }
 
-input, textarea {
-    padding: 17px 25px;
-    border-radius: 25px;
-    margin-bottom: 20px;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid #000000;
-    color:#000000;          /*color letra al escribir en el formulario*/
-    outline: none;
-    
+.registro a {
+  color: rgba(0, 0, 0, 0.945);    /*color terminos y condiciones texto*/
+  
 }
 
- input::placeholder, textarea::placeholder {
-    color: #000000;
- }
-
- .form-txt {
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+.registro a:hover{
+  color: rgba(123, 255, 0, 0.986);    /*color al pasar el cursor por terminos y condiciones*/
+  text-decoration: underline;
 }
 
-.form-txt a {
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
+.registro .btn {
+  width: 300px;
+  background-color:#ffffff;     /*Color boton*/
+  border: none;
+  padding: 12px;
+  color: rgb(0, 0, 0);                  /*color boton*/
+  margin: 16px 0px;
+  font-size: 16px;                        /*tamaño de boton enviar*/
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 4px;                   /*Redondea esquinas del boton*/
+  cursor: pointer;                      /*cursor al pasar el mouse por el boton*/
+  transition: background-color 0.3s ease-in-out;
+}
+
+.controles_mensaje {      /*Apartado de mensaje*/
+  text-align: center;
+  width: 300px;                             /*Tamaño de largo de cada campo*/
+  height: 80px;                             /*alto del controlador de mensaje*/
+  background-color: rgb(255, 255, 255);  /*Color de relleno*/
+  padding: 10px;                       /*Grosor de los campos*/
+  border-radius: 4px;                 /*Redondea esquinas de los campos*/
+  margin-bottom: 16px;                /*Espacio inferior entre cada campo*/
+  border: 1px solid #000000;        /*Color de borde*/
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;                    /*Tamaño de letra interior de cada campo*/
+
+}
+
+p {
+  f
 }
 
 
