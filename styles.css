@@ -33,23 +33,43 @@ BARRA DE NAVEGACION
   /*-----------------
          TITULO
 ------------------*/
+/*-----------------
+    T I T U L O
+------------------*/
+
 .titulo {
-    font-size: 32px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    text-align: center;
-    color: rgb(213, 213, 213);
+  font-size: 42px; /* Aumentamos el tamaño para darle más presencia */
+  font-family: 'Arial', sans-serif; /* Fuente moderna y legible */
+  text-align: center;
+  color: #333; /* Color oscuro para mejor contraste */
+  background: linear-gradient(820deg, #349a26, #698c6a); /* Gradiente de color atractivo */
+  -webkit-background-clip: text; /* Asegura que el gradiente se aplique solo al texto */
+  color: transparent; /* Hace que el color original quede oculto */
+  font-weight: bold; /* Añadimos negrita para mayor énfasis */
+  letter-spacing: 1px; /* Un poco de espacio entre las letras */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* Animación de movimiento */
 }
 
-  /*-----------------
-         Parrafo
+/* Efecto de animación cuando se carga la página */
+.titulo:hover {
+  transform: translateY(-5px); /* Hace que el título se eleve cuando se pasa el ratón */
+}
+
+/*-----------------
+-------Parrafo-----
 ------------------*/
 
 .parrafo1 {
-    font-size: 15px;
-    text-align: left;
-    color: rgb(255, 255, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #fff; /* Blanco para mejor legibilidad sobre fondos oscuros */
+  font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+  line-height: 1.6; /* Mejor interlineado para una lectura más fluida */
+  margin-top: 10px;
 }
+
 
   /*-----------------
         Imagenes
@@ -67,7 +87,7 @@ BARRA DE NAVEGACION
     width: 300px;
     height: 300px;
     margin: 10px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(245, 0, 0, 0);
     border: 7cm;    
 }
 
@@ -159,12 +179,12 @@ BARRA DE NAVEGACION
   font-size: verdana;
   color:#ffffff;       /*color de letra de formulario de contacto*/
   text-align: center;
+  
 }
 
 .registro h4 {
   font-size: 32px;        /*tamaño letra formluario de contacto*/
   margin-bottom: 10px;    /*Espacio inferioir entre formulario, y campos para escribir*/
-
 }
 
 .controles {      /*Nombre,*/
@@ -220,17 +240,12 @@ BARRA DE NAVEGACION
   border: 1px solid #000000;        /*Color de borde*/
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;                    /*Tamaño de letra interior de cada campo*/
-
 }
 
-p {
-  f
-}
-
-
-
-
-
+  section.registro {
+    /*background-image: url(imagenes/gorra4-removebg-preview.png);*/
+  }
+  
 
   /*-----------------
     B O T O N
