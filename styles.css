@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(81, 16, 16, 0.801);
+    background-color: rgba(27, 15, 15, 0.801);
 }
 
 * {
@@ -150,7 +150,7 @@ BARRA DE NAVEGACION
 
 form {
     padding: 50px 55px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgb(250, 250, 250);
     border-radius: 20px;
     text-align: center;
     width: 340px;
@@ -168,10 +168,11 @@ h2 {
 }
 
 label {
-    color: #555;
+    color: #ffffff;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 15px;
+    
 }
 
 input, textarea {
@@ -182,10 +183,11 @@ input, textarea {
     border: 2px solid #000000;
     color:#000000;          /*color letra al escribir en el formulario*/
     outline: none;
+    
 }
 
  input::placeholder, textarea::placeholder {
-    color: #ccc;
+    color: #000000;
  }
 
  .form-txt {
@@ -196,7 +198,7 @@ input, textarea {
 }
 
 .form-txt a {
-    color: #1c233f;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
